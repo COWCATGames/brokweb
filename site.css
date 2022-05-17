@@ -1,0 +1,185 @@
+/*
+Brok Stylesheet, copyright Cowcat Games 2020
+*/
+
+
+/* --------------------------------------------- MAIN OBJECTS  --------------------------------------------------*/
+body {background-color: #203d5a; text-align:center;}
+
+body, button {
+	font: 20px Verdana, Arial, Helvetica, sans-serif; 
+	color: #FFFFFF;
+	}
+	
+a:link {font: 20px Verdana, Arial, Helvetica, sans-serif; color: #ffeebc; text-decoration: none; text-shadow:0px 0px 10px #ff0101;}
+a:visited {font: 20px Verdana, Arial, Helvetica, sans-serif; color: #ffeebc; text-decoration: none text-shadow:0px 0px 10px #ff0101;}
+a:hover {font: 20px Verdana, Arial, Helvetica, sans-serif; color: #fff; text-decoration: none; text-shadow:0px 0px 10px #ff0101;}
+
+.uk-alert {
+		margin-bottom:15px;
+		padding : 10px;
+		background : #000000;
+		color: #2d7091;
+		border: 1px solid black;
+		border-radius: 4px;
+		text-shadow : 0 1px 0 #fff;
+}
+
+.uk-width {
+		margin : 0;
+		padding-left: 25px;
+		float : left;
+}
+
+.part1 {	
+	float:left; text-align:left; width:3%;
+}
+.part2 {	
+	float:left; text-align:left; width:30%;
+}
+.part3 {	
+	float:left; text-align:left; width:60%;
+}
+
+strong
+{
+	color: #bbc3ff;
+}
+
+ul
+{
+	list-style: square inside;	
+}
+
+li
+{
+	margin: 0 0 5px 0;	
+}
+
+img
+{
+	border:4px solid black;
+}
+
+input
+{
+	height:30px;
+	font-size:18px;
+}
+
+select
+{
+	height:30px;
+	font-size:18px;
+}
+
+h2
+{
+	color: d391ff;
+}
+
+input[type=checkbox]
+{
+	width: 20px;
+	display: inline-block;
+    margin-right: 10px;
+	margin-bottom: 5px;
+	vertical-align:middle;
+}
+
+textarea
+{	
+	font-size:18px;
+}
+
+.error
+{
+	color:red;
+}
+
+.linknormal:link {text-decoration: none; text-shadow:none; color:white;}
+.linknormal:visited {text-decoration: none; text-shadow:none; color:white;}
+.linknormal:hover {text-decoration: none; text-shadow:none; color:white;}
+
+.linkdelivered:link {text-decoration: none; text-shadow:none; color:pink;}
+.linkdelivered:visited {text-decoration: none; text-shadow:none; color:pink;}
+.linkdelivered:hover {text-decoration: none; text-shadow:none; color:pink;}
+
+.linknotdelivered:link {text-decoration: none; text-shadow:none; color:red;}
+.linknotdelivered:visited {text-decoration: none; text-shadow:none; color:red;}
+.linknotdelivered:hover {text-decoration: none; text-shadow:none; color:red;}
+
+.linkshipped:link {text-decoration: none; text-shadow:none; color:green;}
+.linkshipped:visited {text-decoration: none; text-shadow:none; color:green;}
+.linkshipped:hover {text-decoration: none; text-shadow:none; color:green;}
+
+.linkcomplete:link {text-decoration: none; text-shadow:none; color:purple;}
+.linkcomplete:visited {text-decoration: none; text-shadow:none; color:purple;}
+.linkcomplete:hover {text-decoration: none; text-shadow:none; color:purple;}
+
+.linknotfilled:link {text-decoration: none; text-shadow:none; color:black;}
+.linknotfilled:visited {text-decoration: none; text-shadow:none; color:black;}
+.linknotfilled:hover {text-decoration: none; text-shadow:none; color:black;}
+
+@media screen and (max-width: 800px) {
+	img
+	{
+		border:2px solid black;
+	}
+	
+	.part1 {	
+		float:none; text-align:left; width:0%;
+	}
+	.part2 {	
+		float:none; text-align:left; width:100%;
+	}
+	.part3 {	
+		float:none; text-align:left; width:100%;
+	}
+	
+	.mobilenodisplay
+	{
+		display:none;
+	}
+	
+	
+	
+	
+	
+	
+	
+	body, button {
+		font: 16px Verdana, Arial, Helvetica, sans-serif; 
+		}
+		
+	a:link {font: 16px Verdana, Arial, Helvetica, sans-serif; color: #ffeebc; text-decoration: none; text-shadow:0px 0px 10px #ff0101;}
+	a:visited {font: 16px Verdana, Arial, Helvetica, sans-serif; color: #ffeebc; text-decoration: none text-shadow:0px 0px 10px #ff0101;}
+	a:hover {font: 16px Verdana, Arial, Helvetica, sans-serif; color: #fff; text-decoration: none; text-shadow:0px 0px 10px #ff0101;}
+
+	input
+	{
+		height:30px;
+		font-size:18px;
+	}
+
+	select
+	{
+		height:30px;
+		font-size:18px;
+	}
+
+	input[type=checkbox]
+	{
+		width: 20px;
+		display: inline-block;
+		margin-right: 10px;
+		margin-bottom: 5px;
+		vertical-align:middle;
+	}
+
+	textarea
+	{	
+		font-size:18px;
+	}
+}
+
