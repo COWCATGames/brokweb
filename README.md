@@ -1,2 +1,2 @@
 # cowcatgames.github.io
-Temporary page in case main website goes down
+Temporary page for press kit in case the main website goes down
